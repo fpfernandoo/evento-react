@@ -11,8 +11,8 @@
   
   /* Define as cores, fonte e alinhamento geral */
   body {
-    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
-    background-color: #f5f7fa; /* Fundo cinza-claro */
+    font-family: sans-serif;
+    background-color: #9c84ad; /* Fundo cinza-claro */
     color: #333;               /* Cor principal do texto */
     text-align: center;        /* Centraliza textos genéricos */
     min-height: 100vh;         /* Garante altura mínima de tela cheia */
@@ -32,7 +32,7 @@
   
   header {
     width: 100%;                        /* Ocupa toda a largura */
-    background-color: #0072bb;          /* Azul padrão SENAI */
+    background-color: #ac71d8;          /* Azul padrão SENAI */
     color: white;                       /* Texto branco */
     padding: 20px 0;                    /* Espaçamento interno */
     font-size: 1.6em;                   /* Tamanho de texto maior */
@@ -46,7 +46,7 @@
   }
   
   .menu-principal a {
-    color: #005b96;           /* Azul escuro para links */
+    color: floralwhite;           /* Azul escuro para links */
     text-decoration: none;    /* Remove o sublinhado */
     margin: 0 10px;           /* Espaçamento lateral */
     font-weight: 500;         /* Leve destaque */
@@ -64,17 +64,18 @@
     margin-top: 30px;
     width: 90%;
     max-width: 900px;
+    background-color: #242424;
   }
   
   /* Título principal das páginas */
   h1 {
-    color: #005b96;
+    color: floralwhite;
     margin-bottom: 20px;
   }
   
   /* Parágrafos genéricos */
   p {
-    color: #444;
+    color: floralwhite;
     line-height: 1.5; /* Espaçamento entre linhas */
   }
   
@@ -110,4 +111,3 @@
     padding: 20px;
   
   }
-  
