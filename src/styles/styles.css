@@ -1,0 +1,13 @@
+* {
+   margin: 0;
+   border: 0; 
+   font-family: sans-serif;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+    background-color: #9c84ad; /* Fundo cinza-claro */
+    color: #333;               /* Cor principal do texto */
+    text-align: center;        /* Centraliza textos genéricos */
+    min-height: 100vh;         /* Garante altura mínima de tela cheia */
+  }
