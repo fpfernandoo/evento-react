@@ -1,6 +1,8 @@
+import "../styles/Sobre.css";
+
 function Sobre() {
     return (
-      <main>
+      <main className="main-sobre">
         <h1> Sobre o sistema </h1>
         <p>
           {" "}

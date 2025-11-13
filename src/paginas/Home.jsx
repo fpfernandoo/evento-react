@@ -1,8 +1,9 @@
 import Evento from "../components/Evento";
+import "../styles/Home.css";
 
 function Home() {
   return (
-    <main>
+    <main className="main-home">
       <h1> Bem vindo ao Gerenciador de Eventos </h1>
       <p> Aqui você fica por dentro dos eventos </p>
       <Evento nome="Mundo Senai" data="05/11/2025" local="Auditório" />

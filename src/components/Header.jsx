@@ -1,5 +1,7 @@
 import "../styles/Header.css";
 
+
+
 import { Link } from "react-router";
 function Header() {
     return (
@@ -7,9 +9,8 @@ function Header() {
 
         <h2>Gerenciador de Eventos SENAI</h2>
         <nav>
-          <className>
           <Link to="/">Início</Link> | <Link to="/sobre">Sobre</Link>{" "}
-          </className>
+          <button className="btn-entrar">Entrar</button>
         </nav>
       </header>
     );
