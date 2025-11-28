@@ -1,6 +1,6 @@
 .main-home {
-    background-color: #242424;
-    color: floralwhite;
+    background-color: #1C375C;
+    color: #FFFFFF;
     padding: 20px;
     width: 40%;
     margin: auto;
@@ -9,6 +9,11 @@
 }
 
 .main-home p {
+    color: floralwhite;
     margin-top: 18px;
     font-size: 16px;
+}
+
+.main-home h1 {
+    color:#FFC82D;
 }

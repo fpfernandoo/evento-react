@@ -8,6 +8,7 @@ import Sobre from "./paginas/Sobre";
 import CadastroEventos from "./paginas/CadastroEventos";
 
 function App() {
+  
   return (
     <Router>
       <div className="app">
