@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Home from "./paginas/Home";
 import Sobre from "./paginas/Sobre";
 import CadastroEventos from "./paginas/CadastroEventos";
+import Login from "./paginas/Login";
 
 function App() {
   
@@ -17,6 +18,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/sobre" element={<Sobre />} />
           <Route path="/cadastrar" element={<CadastroEventos />} />
+          <Route path="/Login" element={<Login />} />
         </Routes>
         <Footer />
       </div>

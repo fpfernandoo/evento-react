@@ -7,7 +7,7 @@ function Footer() {
   
     return (
       <footer className="main-footer">
-        <p> Fernando Porto - 2025</p>
+        <p> Equipe Rocket - {ano}</p>
       </footer>
     ); //fecha retorno
   } //fecha função

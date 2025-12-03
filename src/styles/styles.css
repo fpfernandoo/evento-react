@@ -11,3 +11,10 @@ body {
     text-align: center;        /* Centraliza textos genéricos */
     min-height: 100vh;         /* Garante altura mínima de tela cheia */
   }
+
+  .app {
+   margin-left: 200px; 
+    min-height: 100vh;
+    padding: 20px;
+    padding-bottom: 50px;
+}
