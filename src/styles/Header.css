@@ -38,7 +38,7 @@ header a {
     font-size: 1.4em;
   }
 
-header a:hover {
+.menu-header a:hover {
     background-color: #2a5286; 
     text-decoration: none;
 }
@@ -62,4 +62,39 @@ header a:hover {
   border-radius: 5px;
   text-decoration: none;
   font-weight: bold;
+}
+
+.logo-link {
+  text-decoration: none;
+  color: white; 
+  display: block;
+}
+
+.logo-link:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.header-logo-titulo {
+  display: flex;
+  margin-top: 10px;
+}
+.logo-link img {
+  height: auto;   
+  width: 100%;
+  display: block; 
+  border: none;
+  padding-bottom: 20px;
+}
+.logo-link {
+  text-decoration: none;
+  color: white; 
+  display: block;
+}
+
+header h2 {
+  text-align: center; 
+  font-size: 1.6em;
+  margin-bottom: 0; 
+  padding: 0 10px;
 }

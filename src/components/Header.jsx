@@ -1,24 +1,30 @@
 import "../styles/Header.css";
 import { 
-  BsHouseFill,      // Ícone para Início
-  BsInfoCircleFill,     // Ícone para Sobre
-  BsCalendarEventFill,  // Ícone para Cadastrar Evento
-  BsBoxArrowInRight     // Ícone para Login
+  BsHouseFill,      
+  BsInfoCircleFill,     
+  BsCalendarEventFill,  
+  BsDoorOpenFill   
 } from 'react-icons/bs';
 import { Link } from "react-router";
-function Header() {
-    return (
-      <header>
 
-        <h2>Gerenciador de Eventos SENAI</h2>
+function Header() {
+  return (
+    <header>
+<div className="header-logo-titulo">
+        <Link to="/" className="logo-link">
+    <img src="/logo_senai.png" alt="logo SENAI"/> 
+</Link>
+    </div>
         <div className="login-header">
-        <Link to="/login" className="btn-login-header">Login</Link>
+        <Link to="/login" className="btn-login-header"><BsDoorOpenFill/> Login/Entrar</Link>
         </div>
+        <div className="menu-header">
         <nav>
-          <Link to="/"><BsHouseFill/> Início</Link>
-          <Link to="/sobre"><BsInfoCircleFill/> Sobre</Link>{" "} 
+          <Link to="/"><BsHouseFill/> Início</Link> 
           <Link to="/cadastrar">< BsCalendarEventFill/> Cadastrar Evento</Link>
+          <Link to="/sobre"><BsInfoCircleFill/> Sobre</Link>{" "}
         </nav>
+        </div>
       </header>
     );
   }

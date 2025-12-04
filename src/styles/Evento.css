@@ -5,6 +5,7 @@
     margin: auto;
     border-radius: 20px;
     margin-top: 20px;
+    border-left: #FFC82D solid 5px;
 }
 
 .evento-main h3 {
